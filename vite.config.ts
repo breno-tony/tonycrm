@@ -12,8 +12,8 @@ export default defineConfig(() => {
       },
     },
     server: {
-      // Permite o host do Render e qualquer subdomínio dele
-      allowedHosts: ['tonycrm.onrender.com', '.onrender.com'],
+      // Libera totalmente a verificação de hosts para não travar no deploy
+      allowedHosts: true,
       
       // HMR is disabled in AI Studio via DISABLE_HMR env var.
       // Do not modify—file watching is disabled to prevent flickering during agent edits.
