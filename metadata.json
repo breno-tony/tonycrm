@@ -1,0 +1,6 @@
+{
+  "name": "Tony CRM",
+  "description": "Sistema completo e responsivo de gerenciamento de leads, vendas e follow-ups integrado com simulador de banco de dados Base44.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
